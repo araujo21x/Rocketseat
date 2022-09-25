@@ -1,4 +1,7 @@
 import app from './app';
+import database from './database';
 
-app.listen(process.env.PORT);
-console.log(`serve on: ${process.env.PORT}`);
+database.initialize().then(() => {
+  console.log(`serve on: ${process.env.PORT}`);
+  app.listen(process.env.PORT);
+});

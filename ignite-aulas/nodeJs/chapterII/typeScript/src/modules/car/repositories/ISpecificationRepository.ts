@@ -1,4 +1,4 @@
-import Specification from '../model/Specification';
+import Specification from '../entities/Specification';
 
 /* eslint-disable no-unused-vars */
 export interface ICreateSpecificationDTO {
