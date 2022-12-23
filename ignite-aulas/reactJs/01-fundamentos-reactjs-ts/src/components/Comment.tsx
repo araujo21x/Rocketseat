@@ -9,7 +9,7 @@ interface CommentProps {
 }
 
 export function Comment({ content, onDeleteComment }: CommentProps) {
-  const [likeCount, setLikeCount] = useState(0);
+  const [likeCount, setLikeCount] = useState('');
 
   function handlerDeleteComment() {
     onDeleteComment(content)
