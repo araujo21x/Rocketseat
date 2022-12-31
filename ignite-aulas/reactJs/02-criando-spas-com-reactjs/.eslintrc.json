@@ -3,7 +3,8 @@
   
   "rules": {
     "prettier/prettier": ["error", {"semi": true}],
-    "semi": [2, "always"]
+    "semi": [2, "always"],
+    "no-unused-vars": "off"
   }
   
 }
